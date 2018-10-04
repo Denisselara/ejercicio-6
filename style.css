@@ -1,0 +1,139 @@
+body{
+  font-size: 12px;
+  font-family: sans-serif;
+  margin: 0px;
+  padding-top: 100px;
+  background-color: silver;
+}
+
+.main-container{
+  display: table;
+}
+
+.main-container{
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.row{
+  clear: both;
+}
+
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5,
+.col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10{
+  float: left;
+  padding-left: 10px;
+  padding-right: 10px;
+  box-sizing: border-box;
+}
+
+.col-md-1{
+  width: 10%;
+}
+
+.col-md-offset-1{
+  margin-left: 10%;
+}
+
+.col-md-2{
+  width: 20%;
+}
+
+.col-md-offset-2{
+  margin-left: 20%;
+}
+
+.col-md-3{
+  width: 30%;
+}
+
+.col-md-offset-3{
+  margin-left: 30%;
+}
+
+.col-md-4{
+  width: 40%;
+}
+
+.col-md-offset-4{
+  margin-left: 40%;
+}
+
+.col-md-5{
+  width: 50%;
+}
+
+.col-md-offset-5{
+  margin-left: 50%;
+}
+
+.col-md-6{
+  width: 60%;
+}
+
+.col-md-7{
+  width: 70%;
+}
+
+.col-md-8{
+  width: 80%;
+}
+
+.col-md-9{
+  width: 90%;
+}
+
+.col-md-10{
+  width: 100%;
+}
+
+.avatar{
+  width: 150px;
+  margin: -75px auto 0;
+  border-radius: 50%;
+}
+
+header{
+  width: 100%;
+  height: 50%;
+  text-align: center;
+
+}
+
+header h1{
+  font-size: 1.5em;
+  text-align: center;
+  padding-bottom: 2vh;
+  border-bottom: solid 0.5vh silver;
+}
+
+.izquierda{
+  float: left;
+  background-color: yellow;
+  width: 60%;
+}
+
+.derecha{
+  float: left;
+  background-color: red;
+  width: 40%;
+}
+
+.ciclo{
+  float: left;
+  width: 15%;
+}
+
+span{
+  color: orange;
+}
+
+p{
+  margin: auto;
+}
+
+.container-educacion{
+  margin-top: 2%;
+}
