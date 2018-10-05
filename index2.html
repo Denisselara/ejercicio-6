@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="main-container">
+    <div class="main-container"> <!--este div contiene toda la informacion y tiene fondo blanco-->
     <header>
     <div class="row">
       <div class="col-md-10">
@@ -18,48 +18,124 @@
 
 
     <section>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="row">
+    <div class="row"> <!--div que contiene 2 columnas grandes de 6 y 4-->
+      <div class="col-md-6"> <!--primera columna de 6-->
+
+        <div class="row"> <!--row de acerca-->
           <div class="col-md-10">
-              <h1><span> /// ACERCA DE</span></h1>
+            <h1><span> /// ACERCA DE</span></h1>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus debitis, quam aperiam expedita ipsam incidunt vitae repudiandae quia? Nulla, ducimus, libero! Voluptatum facilis quae reprehenderit cumque tempore fugit sit aliquam.</p>
-          </div>
-        </div>
-        <div class="row">
+                </div>
+                  </div><!--cierre row de acerca-->
+
+        <div class="row"><!--row de educacion-->
           <div class="col-md-10">
             <h1> <span>/// EDUCACIÓN</span></h1>
+            </div>
+              </div><!--cierre row de educacion-->
 
-            <div class="row">
-              <div class="col-md-1">
-                2012
-              </div>
-              <div class="col-md-9">
+        <div class="row"> <!--row de info años-->
+          <div class="col-md-1">
+            <h2>2012</h2>
+            </div>
+              <div class="col-md-9 rectangulo-gris">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus debitis, quam aperiam expedita ipsam incidunt vitae repudiandae quia? Nulla, ducimus, libero! Voluptatum facilis quae reprehenderit cumque tempore fugit sit aliquam.</p>
+                  </div>
+                </div> <!--CADA VEZ QUE LAS COLUMNAS SUMEN 10, SE DEBE CREAR UN SIGUIENTE ROW-->
+
+        <div class="row"> <!--row de info años-->
+          <div class="col-md-1">
+          <h2>2010</h2>
+            <div class="triangulo">
               </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-1">
-                  2012
                 </div>
-                <div class="col-md-9">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus debitis, quam aperiam expedita ipsam incidunt vitae repudiandae quia? Nulla, ducimus, libero! Voluptatum facilis quae reprehenderit cumque tempore fugit sit aliquam.</p>
-                </div>
-             </div>
+                  <div class="col-md-9 rectangulo-gris">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus debitis, quam aperiam expedita ipsam incidunt vitae repudiandae quia? Nulla, ducimus, libero! Voluptatum facilis quae reprehenderit cumque tempore fugit sit aliquam.</p>
+                      </div>
+                    </div><!--cierre row de info años-->
 
-            </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="row">
+             <div class="row"><!--row de experiencia-->
+               <div class="col-md-10">
+                 <h1> <span>/// EXPERIENCIA</span></h1>
+                 </div>
+                  <div class="row">
+                     <div class="col-md-2">
+                       <h2>Certa</h2>
+                       <p class="mini">2017-2018</p>
+                        </div>
+                          <div class="col-md-8 padding-experiencia">
+                            <p><strong>Diseñadora gráfica</strong></p>
+                           <p> Desempeño en departamento de diseño gráfico publicitario, campañas comunicacionales, Endomarketing, entre otros.</p>
+                           </div>
+                             </div>
+                             <div class="row">
+                                <div class="col-md-2">
+                                  <h2>Comglobal</h2>
+                                  <p class="mini">2016-2017</p>
+                                   </div>
+                                     <div class="col-md-8 padding-experiencia">
+                                       <p><strong>Diseñadora gráfica</strong></p>
+                                      <p> Desempeño en departamento de diseño editorial, Revistas, Anuarios, Agendas, Libros, entre otros.
+                                      Preprensa y montaje de archivos.</p>
+                                      </div>
+                                        </div>
+                               </div><!--cierre row de experiencia-->
+
+            </div> <!-- cierre primera columna de 6-->
+
+      <div class="col-md-4"> <!-- segunda columna de 4-->
+        <div class="row"><!-- row de contacto-->
           <div class="col-md-10">
-              <h1><span> //CONTACTO</span></h1>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus debitis, quam aperiam expedita ipsam incidunt vitae repudiandae quia? Nulla, ducimus, libero! Voluptatum facilis quae reprehenderit cumque tempore fugit sit aliquam.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+              <h1><span> // CONTACTO</span></h1>
+                <ul>
+                  <li><strong>Email:</strong> denisselarav@gmail.com</li>
+                  <li><strong>Skype:</strong> Denisselarav</li>
+                  <li><strong>Twitter:</strong> @Hysdenisse</li>
+                  <li><strong>Facebook:</strong> /HysDenisse</li>
+                    </ul>
+                      </div>
+                        </div><!--cierre row de contacto-->
+
+        <div class="row"><!-- row de skills-->
+          <div class="col-md-10">
+            <h1><span> // SKILLS</span></h1>
+
+              <p id="ai">ILLUSTRATOR</p>
+              <p id="psd">PHOTOSHOP</p>
+              <p id="id">INDESIGN</p>
+
+                          </div>
+                            </div><!--cierre row de skills-->
+
+        <div class="row"><!-- row de idiomas-->
+          <div class="col-md-10">
+            <h1><span> // IDIOMAS</span></h1>
+            <p> ESPAÑOL</p>
+            <ul>
+              <li id="star-five"></li>
+              <li class="INLINE" id="star-five"></li>
+              <li class="INLINE" id="star-five"></li>
+            </ul>
+              <p class="idiomas-border"></p>
+
+                <p>INGLÉS</p>
+                <p class="idiomas-border"></p>
+                  </div>
+                    </div><!--cierre row de idiomas-->
+
+        <div class="row"><!-- row de idiomas-->
+          <div class="col-md-10">
+            <h1><span> //HOBBIES</span></h1>
+            <p class="HOBBIES"> BICICLETA </p>
+              <p class="HOBBIES">FOTOGRAFÍA</p>
+                <p class="HOBBIES">GATOS</p>
+                    </div>
+                      </div><!--cierre row de idiomas-->
+
+
+      </div><!-- cierre segunda columna de 4-->
+
+    </div> <!--cierre div que contiene 2 columnas grandes de 6 y 4-->
     </section>
 
     <footer></footer>

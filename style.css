@@ -137,3 +137,79 @@ p{
 .container-educacion{
   margin-top: 2%;
 }
+
+ul{
+  padding-left: 8vh;
+}
+
+.rectangulo-gris{
+  background-color: silver;
+  margin-bottom: 3vh;
+  padding: 2vh;
+}
+
+.triangulo {
+  position: absolute;
+  border-right: 10px solid silver;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+h2{
+  font-size: 1em;
+  color:grey;
+  margin: 0px;
+}
+
+.padding-experiencia{
+  margin-bottom: 3vh;
+}
+
+.mini{
+  font-size: 0.8em;
+  color: grey;
+}
+
+
+#ai{
+  width: 60%;
+  padding: 1%;
+  background-color: orange;
+  margin-left: 0px;
+  color: white;
+
+}
+
+#psd{
+  margin-left: 0px;
+  width: 50%;
+  padding: 1%;
+  background-color: orange;
+  margin-top: 1vh;
+  color: white;
+}
+
+#id{
+  width: 40%;
+  padding: 1%;
+  background-color: orange;
+  margin-top: 1vh;
+  margin-left: 0px;
+  color: white;
+}
+
+.idiomas-border{
+  padding-bottom: 2vh;
+  border-bottom: solid 1px silver;
+  margin-bottom: 2vh;
+}
+
+.HOBBIES{
+  float: left;
+  padding: 1%;
+  background-color: orange;
+  margin-top: 1vh;
+  margin-left: 0px;
+  color: white;
+  margin-right: 2vh;
+}
